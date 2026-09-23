@@ -30,7 +30,6 @@ RUN useradd \
 
 USER 1001
 
-ENV PATH="/usr/local/bin:$PATH"
 ENV PYTHONUNBUFFERED=1
 
-CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:${PORT:-8000} --worker-class gevent --workers 1 wsgi:app"]
+CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:${PORT:-80} --worker-class gevent --workers 1 wsgi:app"]
