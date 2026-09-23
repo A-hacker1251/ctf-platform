@@ -1,0 +1,1894 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 8494-3DD5
+C:.
+|   .codecov.yml
+|   .dockerignore
+|   .eslintrc.js
+|   .flaskenv
+|   .git-blame-ignore-revs
+|   .gitattributes
+|   .gitignore
+|   .node-version
+|   .python-version
+|   babel.cfg
+|   CHANGELOG.md
+|   CONTRIBUTING.md
+|   crowdin.yml
+|   docker-compose.yml
+|   docker-entrypoint.sh
+|   Dockerfile
+|   export.py
+|   import.py
+|   LICENSE
+|   Makefile
+|   manage.py
+|   messages.pot
+|   ping.py
+|   populate.py
+|   prepare.sh
+|   project_structure.txt
+|   pyproject.toml
+|   README.md
+|   requirements.txt
+|   SECURITY.md
+|   serve.py
+|   setup.cfg
+|   uv.lock
+|   Vagrantfile
+|   wsgi.py
+|   
++---.data
+|   +---CTFd
+|   |   +---logs
+|   |   |       logins.log
+|   |   |       registrations.log
+|   |   |       submissions.log
+|   |   |       
+|   |   \---uploads
+|   |       +---032006131cf1e99a0eaf90be181210ea
+|   |       |       file_000000009c78820b8c146c391aaf55f6.png
+|   |       |       
+|   |       +---122c19d57eeb085d819530e642f87ae3
+|   |       |       c1_last_message.txt
+|   |       |       
+|   |       +---151ea38fd3d8a06b6c7d74c441e21bd1
+|   |       |       m1_strange_file.dat
+|   |       |       
+|   |       +---22fde3879425bba5573cc6fe15410e08
+|   |       |       file_000000009c78820b8c146c391aaf55f6.png
+|   |       |       
+|   |       +---2341125c46cb88f2d10c1b7c33f74478
+|   |       |       m2_outside_the_box.zip
+|   |       |       
+|   |       +---4089277053fa0f25668f62deba120e98
+|   |       |       c3_broken_cipher.txt
+|   |       |       
+|   |       +---622900cbbac3d23a8e5ef574220a7ca6
+|   |       |       f4_deleted_evidence.zip
+|   |       |       
+|   |       +---6e9cc40a1685f4ecc02956c887d353db
+|   |       |       f3_packet_hunt.pcap
+|   |       |       
+|   |       +---7f3b5b97d4d0179f9e119e8317745a86
+|   |       |       f2_metadata.jpg
+|   |       |       
+|   |       +---9465927a1578bef32bbe3488108d161f
+|   |       |       c2_layers.txt
+|   |       |       
+|   |       +---a050778ea6135f4c4202c57e0947797d
+|   |       |       strings-dont-lie.pyc
+|   |       |       
+|   |       +---ab362382183513d364275327453fd794
+|   |       |       f1_whats_in_the_image.png
+|   |       |       
+|   |       +---af68a85bf97a296dc452afade82accc8
+|   |       |       o2_digital_footprints.html
+|   |       |       
+|   |       +---b98258b95545c70822efb7142dc6b0ee
+|   |       |       c4_rsa.txt
+|   |       |       
+|   |       +---bde319654aabb4c8f04c2bffe3a63c2e
+|   |       |       crack-the-code.pyc
+|   |       |       
+|   |       +---e162e211dad1510c340c765334bdbe9b
+|   |       |       o4_final_connection.zip
+|   |       |       
+|   |       +---eed2273c6091b3c3975f82affea287fe
+|   |       |       o1_find_the_place.html
+|   |       |       
+|   |       \---f46d4ccd6f60868b77294aa0dafad4a7
+|   |               o3_missing_developer.zip
+|   |               
+|   +---mysql
+|   |   |   .my-healthcheck.cnf
+|   |   |   aria_log.00000001
+|   |   |   aria_log_control
+|   |   |   ddl_recovery-backup.log
+|   |   |   ddl_recovery.log
+|   |   |   ibdata1
+|   |   |   ibtmp1
+|   |   |   ib_buffer_pool
+|   |   |   ib_logfile0
+|   |   |   multi-master.info
+|   |   |   mysql_upgrade_info
+|   |   |   
+|   |   +---ctfd
+|   |   |       alembic_version.frm
+|   |   |       alembic_version.ibd
+|   |   |       audiences.frm
+|   |   |       audiences.ibd
+|   |   |       audience_members.frm
+|   |   |       audience_members.ibd
+|   |   |       awards.frm
+|   |   |       awards.ibd
+|   |   |       brackets.frm
+|   |   |       brackets.ibd
+|   |   |       challenges.frm
+|   |   |       challenges.ibd
+|   |   |       challenge_topics.frm
+|   |   |       challenge_topics.ibd
+|   |   |       comments.frm
+|   |   |       comments.ibd
+|   |   |       config.frm
+|   |   |       config.ibd
+|   |   |       db.opt
+|   |   |       dynamic_challenge.frm
+|   |   |       dynamic_challenge.ibd
+|   |   |       fields.frm
+|   |   |       fields.ibd
+|   |   |       field_entries.frm
+|   |   |       field_entries.ibd
+|   |   |       files.frm
+|   |   |       files.ibd
+|   |   |       flags.frm
+|   |   |       flags.ibd
+|   |   |       hints.frm
+|   |   |       hints.ibd
+|   |   |       modules.frm
+|   |   |       modules.ibd
+|   |   |       module_audience_access.frm
+|   |   |       module_audience_access.ibd
+|   |   |       notifications.frm
+|   |   |       notifications.ibd
+|   |   |       pages.frm
+|   |   |       pages.ibd
+|   |   |       ratings.frm
+|   |   |       ratings.ibd
+|   |   |       solutions.frm
+|   |   |       solutions.ibd
+|   |   |       solves.frm
+|   |   |       solves.ibd
+|   |   |       submissions.frm
+|   |   |       submissions.ibd
+|   |   |       tags.frm
+|   |   |       tags.ibd
+|   |   |       teams.frm
+|   |   |       teams.ibd
+|   |   |       tokens.frm
+|   |   |       tokens.ibd
+|   |   |       topics.frm
+|   |   |       topics.ibd
+|   |   |       tracking.frm
+|   |   |       tracking.ibd
+|   |   |       unlocks.frm
+|   |   |       unlocks.ibd
+|   |   |       users.frm
+|   |   |       users.ibd
+|   |   |       
+|   |   +---mysql
+|   |   |       columns_priv.frm
+|   |   |       columns_priv.MAD
+|   |   |       columns_priv.MAI
+|   |   |       column_stats.frm
+|   |   |       column_stats.MAD
+|   |   |       column_stats.MAI
+|   |   |       db.frm
+|   |   |       db.MAD
+|   |   |       db.MAI
+|   |   |       db.opt
+|   |   |       event.frm
+|   |   |       event.MAD
+|   |   |       event.MAI
+|   |   |       func.frm
+|   |   |       func.MAD
+|   |   |       func.MAI
+|   |   |       general_log.CSM
+|   |   |       general_log.CSV
+|   |   |       general_log.frm
+|   |   |       global_priv.frm
+|   |   |       global_priv.MAD
+|   |   |       global_priv.MAI
+|   |   |       gtid_slave_pos.frm
+|   |   |       gtid_slave_pos.ibd
+|   |   |       help_category.frm
+|   |   |       help_category.MAD
+|   |   |       help_category.MAI
+|   |   |       help_keyword.frm
+|   |   |       help_keyword.MAD
+|   |   |       help_keyword.MAI
+|   |   |       help_relation.frm
+|   |   |       help_relation.MAD
+|   |   |       help_relation.MAI
+|   |   |       help_topic.frm
+|   |   |       help_topic.MAD
+|   |   |       help_topic.MAI
+|   |   |       index_stats.frm
+|   |   |       index_stats.MAD
+|   |   |       index_stats.MAI
+|   |   |       innodb_index_stats.frm
+|   |   |       innodb_index_stats.ibd
+|   |   |       innodb_table_stats.frm
+|   |   |       innodb_table_stats.ibd
+|   |   |       plugin.frm
+|   |   |       plugin.MAD
+|   |   |       plugin.MAI
+|   |   |       proc.frm
+|   |   |       proc.MAD
+|   |   |       proc.MAI
+|   |   |       procs_priv.frm
+|   |   |       procs_priv.MAD
+|   |   |       procs_priv.MAI
+|   |   |       proxies_priv.frm
+|   |   |       proxies_priv.MAD
+|   |   |       proxies_priv.MAI
+|   |   |       roles_mapping.frm
+|   |   |       roles_mapping.MAD
+|   |   |       roles_mapping.MAI
+|   |   |       servers.frm
+|   |   |       servers.MAD
+|   |   |       servers.MAI
+|   |   |       slow_log.CSM
+|   |   |       slow_log.CSV
+|   |   |       slow_log.frm
+|   |   |       tables_priv.frm
+|   |   |       tables_priv.MAD
+|   |   |       tables_priv.MAI
+|   |   |       table_stats.frm
+|   |   |       table_stats.MAD
+|   |   |       table_stats.MAI
+|   |   |       time_zone.frm
+|   |   |       time_zone.MAD
+|   |   |       time_zone.MAI
+|   |   |       time_zone_leap_second.frm
+|   |   |       time_zone_leap_second.MAD
+|   |   |       time_zone_leap_second.MAI
+|   |   |       time_zone_name.frm
+|   |   |       time_zone_name.MAD
+|   |   |       time_zone_name.MAI
+|   |   |       time_zone_transition.frm
+|   |   |       time_zone_transition.MAD
+|   |   |       time_zone_transition.MAI
+|   |   |       time_zone_transition_type.frm
+|   |   |       time_zone_transition_type.MAD
+|   |   |       time_zone_transition_type.MAI
+|   |   |       transaction_registry.frm
+|   |   |       transaction_registry.ibd
+|   |   |       user.frm
+|   |   |       
+|   |   +---performance_schema
+|   |   |       db.opt
+|   |   |       
+|   |   \---sys
+|   |           db.opt
+|   |           host_summary.frm
+|   |           host_summary_by_file_io.frm
+|   |           host_summary_by_file_io_type.frm
+|   |           host_summary_by_stages.frm
+|   |           host_summary_by_statement_latency.frm
+|   |           host_summary_by_statement_type.frm
+|   |           innodb_buffer_stats_by_schema.frm
+|   |           innodb_buffer_stats_by_table.frm
+|   |           innodb_lock_waits.frm
+|   |           io_by_thread_by_latency.frm
+|   |           io_global_by_file_by_bytes.frm
+|   |           io_global_by_file_by_latency.frm
+|   |           io_global_by_wait_by_bytes.frm
+|   |           io_global_by_wait_by_latency.frm
+|   |           latest_file_io.frm
+|   |           memory_by_host_by_current_bytes.frm
+|   |           memory_by_thread_by_current_bytes.frm
+|   |           memory_by_user_by_current_bytes.frm
+|   |           memory_global_by_current_bytes.frm
+|   |           memory_global_total.frm
+|   |           metrics.frm
+|   |           processlist.frm
+|   |           ps_check_lost_instrumentation.frm
+|   |           schema_auto_increment_columns.frm
+|   |           schema_index_statistics.frm
+|   |           schema_object_overview.frm
+|   |           schema_redundant_indexes.frm
+|   |           schema_tables_with_full_table_scans.frm
+|   |           schema_table_lock_waits.frm
+|   |           schema_table_statistics.frm
+|   |           schema_table_statistics_with_buffer.frm
+|   |           schema_unused_indexes.frm
+|   |           session.frm
+|   |           session_ssl_status.frm
+|   |           statements_with_errors_or_warnings.frm
+|   |           statements_with_full_table_scans.frm
+|   |           statements_with_runtimes_in_95th_percentile.frm
+|   |           statements_with_sorting.frm
+|   |           statements_with_temp_tables.frm
+|   |           statement_analysis.frm
+|   |           sys_config.frm
+|   |           sys_config.MAD
+|   |           sys_config.MAI
+|   |           user_summary.frm
+|   |           user_summary_by_file_io.frm
+|   |           user_summary_by_file_io_type.frm
+|   |           user_summary_by_stages.frm
+|   |           user_summary_by_statement_latency.frm
+|   |           user_summary_by_statement_type.frm
+|   |           version.frm
+|   |           waits_by_host_by_latency.frm
+|   |           waits_by_user_by_latency.frm
+|   |           waits_global_by_latency.frm
+|   |           wait_classes_global_by_avg_latency.frm
+|   |           wait_classes_global_by_latency.frm
+|   |           x@0024host_summary.frm
+|   |           x@0024host_summary_by_file_io.frm
+|   |           x@0024host_summary_by_file_io_type.frm
+|   |           x@0024host_summary_by_stages.frm
+|   |           x@0024host_summary_by_statement_latency.frm
+|   |           x@0024host_summary_by_statement_type.frm
+|   |           x@0024innodb_buffer_stats_by_schema.frm
+|   |           x@0024innodb_buffer_stats_by_table.frm
+|   |           x@0024innodb_lock_waits.frm
+|   |           x@0024io_by_thread_by_latency.frm
+|   |           x@0024io_global_by_file_by_bytes.frm
+|   |           x@0024io_global_by_file_by_latency.frm
+|   |           x@0024io_global_by_wait_by_bytes.frm
+|   |           x@0024io_global_by_wait_by_latency.frm
+|   |           x@0024latest_file_io.frm
+|   |           x@0024memory_by_host_by_current_bytes.frm
+|   |           x@0024memory_by_thread_by_current_bytes.frm
+|   |           x@0024memory_by_user_by_current_bytes.frm
+|   |           x@0024memory_global_by_current_bytes.frm
+|   |           x@0024memory_global_total.frm
+|   |           x@0024processlist.frm
+|   |           x@0024ps_digest_95th_percentile_by_avg_us.frm
+|   |           x@0024ps_digest_avg_latency_distribution.frm
+|   |           x@0024ps_schema_table_statistics_io.frm
+|   |           x@0024schema_flattened_keys.frm
+|   |           x@0024schema_index_statistics.frm
+|   |           x@0024schema_tables_with_full_table_scans.frm
+|   |           x@0024schema_table_lock_waits.frm
+|   |           x@0024schema_table_statistics.frm
+|   |           x@0024schema_table_statistics_with_buffer.frm
+|   |           x@0024session.frm
+|   |           x@0024statements_with_errors_or_warnings.frm
+|   |           x@0024statements_with_full_table_scans.frm
+|   |           x@0024statements_with_runtimes_in_95th_percentile.frm
+|   |           x@0024statements_with_sorting.frm
+|   |           x@0024statements_with_temp_tables.frm
+|   |           x@0024statement_analysis.frm
+|   |           x@0024user_summary.frm
+|   |           x@0024user_summary_by_file_io.frm
+|   |           x@0024user_summary_by_file_io_type.frm
+|   |           x@0024user_summary_by_stages.frm
+|   |           x@0024user_summary_by_statement_latency.frm
+|   |           x@0024user_summary_by_statement_type.frm
+|   |           x@0024waits_by_host_by_latency.frm
+|   |           x@0024waits_by_user_by_latency.frm
+|   |           x@0024waits_global_by_latency.frm
+|   |           x@0024wait_classes_global_by_avg_latency.frm
+|   |           x@0024wait_classes_global_by_latency.frm
+|   |           
+|   \---redis
+|           dump.rdb
+|           
++---.github
+|   |   FUNDING.yml
+|   |   ISSUE_TEMPLATE.md
+|   |   
+|   \---workflows
+|           docker-build.yml
+|           lint.yml
+|           mariadb.yml
+|           mirror-core-theme.yml
+|           mysql.yml
+|           mysql8.yml
+|           postgres.yml
+|           sqlite.yml
+|           verify-themes.yml
+|           
++---challenge-pack
+|   \---challenge-pack
+|       |   challenge_manifest.json
+|       |   compose.web.yml
+|       |   generate_artifacts.py
+|       |   import_ctfd_api.py
+|       |   py
+|       |   README.md
+|       |   requirements-import.txt
+|       |   upload_ctfd_files_api.py
+|       |   
+|       +---artifacts
+|       |   +---crypto
+|       |   |       c1_last_message.txt
+|       |   |       c2_layers.txt
+|       |   |       c3_broken_cipher.txt
+|       |   |       c4_rsa.txt
+|       |   |       
+|       |   +---forensics
+|       |   |       f1_whats_in_the_image.png
+|       |   |       f2_metadata.jpg
+|       |   |       f3_packet_hunt.pcap
+|       |   |       f4_deleted_evidence.zip
+|       |   |       
+|       |   +---misc
+|       |   |       m1_strange_file.dat
+|       |   |       m2_outside_the_box.zip
+|       |   |       
+|       |   +---osint
+|       |   |       o1_find_the_place.html
+|       |   |       o2_digital_footprints.html
+|       |   |       o3_missing_developer.zip
+|       |   |       o4_final_connection.zip
+|       |   |       
+|       |   \---reverse
+|       |           crack-the-code.pyc
+|       |           strings-dont-lie.pyc
+|       |           
+|       +---web
+|       |   |   app.py
+|       |   |   Dockerfile
+|       |   |   
+|       |   \---__pycache__
+|       |           app.cpython-312.pyc
+|       |           
+|       \---__pycache__
+|               generate_artifacts.cpython-312.pyc
+|               import_ctfd_api.cpython-312.pyc
+|               upload_ctfd_files_api.cpython-312.pyc
+|               
++---conf
+|   \---nginx
+|           http.conf
+|           
++---CTFd
+|   |   auth.py
+|   |   challenges.py
+|   |   config.ini
+|   |   config.py
+|   |   errors.py
+|   |   scoreboard.py
+|   |   share.py
+|   |   teams.py
+|   |   users.py
+|   |   views.py
+|   |   __init__.py
+|   |   
+|   +---admin
+|   |       audiences.py
+|   |       challenges.py
+|   |       modules.py
+|   |       notifications.py
+|   |       pages.py
+|   |       scoreboard.py
+|   |       statistics.py
+|   |       submissions.py
+|   |       teams.py
+|   |       users.py
+|   |       __init__.py
+|   |       
+|   +---api
+|   |   |   __init__.py
+|   |   |   
+|   |   \---v1
+|   |       |   audiences.py
+|   |       |   awards.py
+|   |       |   brackets.py
+|   |       |   challenges.py
+|   |       |   comments.py
+|   |       |   config.py
+|   |       |   exports.py
+|   |       |   files.py
+|   |       |   flags.py
+|   |       |   hints.py
+|   |       |   modules.py
+|   |       |   notifications.py
+|   |       |   pages.py
+|   |       |   scoreboard.py
+|   |       |   shares.py
+|   |       |   solutions.py
+|   |       |   submissions.py
+|   |       |   tags.py
+|   |       |   teams.py
+|   |       |   tokens.py
+|   |       |   topics.py
+|   |       |   unlocks.py
+|   |       |   users.py
+|   |       |   __init__.py
+|   |       |   
+|   |       +---helpers
+|   |       |       models.py
+|   |       |       request.py
+|   |       |       schemas.py
+|   |       |       __init__.py
+|   |       |       
+|   |       +---schemas
+|   |       |       __init__.py
+|   |       |       
+|   |       \---statistics
+|   |               challenges.py
+|   |               progression.py
+|   |               scores.py
+|   |               submissions.py
+|   |               teams.py
+|   |               users.py
+|   |               __init__.py
+|   |               
+|   +---cache
+|   |       __init__.py
+|   |       
+|   +---cli
+|   |       __init__.py
+|   |       
+|   +---constants
+|   |       assets.py
+|   |       config.py
+|   |       email.py
+|   |       languages.py
+|   |       options.py
+|   |       plugins.py
+|   |       sessions.py
+|   |       setup.py
+|   |       static.py
+|   |       teams.py
+|   |       themes.py
+|   |       users.py
+|   |       __init__.py
+|   |       
+|   +---events
+|   |       __init__.py
+|   |       
+|   +---exceptions
+|   |       challenges.py
+|   |       email.py
+|   |       __init__.py
+|   |       
+|   +---fonts
+|   |       OFL.txt
+|   |       OpenSans-Bold.ttf
+|   |       
+|   +---forms
+|   |       auth.py
+|   |       awards.py
+|   |       challenges.py
+|   |       config.py
+|   |       email.py
+|   |       fields.py
+|   |       language.py
+|   |       notifications.py
+|   |       pages.py
+|   |       self.py
+|   |       setup.py
+|   |       submissions.py
+|   |       teams.py
+|   |       users.py
+|   |       __init__.py
+|   |       
+|   +---logs
+|   |       .gitkeep
+|   |       
+|   +---models
+|   |       __init__.py
+|   |       
+|   +---plugins
+|   |   |   migrations.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---challenges
+|   |   |   |   decay.py
+|   |   |   |   logic.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---assets
+|   |   |           create.html
+|   |   |           create.js
+|   |   |           update.html
+|   |   |           update.js
+|   |   |           view.html
+|   |   |           view.js
+|   |   |           
+|   |   +---dynamic_challenges
+|   |   |   |   .gitignore
+|   |   |   |   decay.py
+|   |   |   |   function.png
+|   |   |   |   README.md
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   +---assets
+|   |   |   |       create.html
+|   |   |   |       create.js
+|   |   |   |       update.html
+|   |   |   |       update.js
+|   |   |   |       view.html
+|   |   |   |       view.js
+|   |   |   |       
+|   |   |   \---migrations
+|   |   |           93284ed9c099_add_dynamic_prefix_to_dynamic_challenge_.py
+|   |   |           b37fb68807ea_add_cascading_delete_to_dynamic_.py
+|   |   |           eb68f277ab61_add_func_column_to_dynamic_challenges.py
+|   |   |           
+|   |   \---flags
+|   |       |   __init__.py
+|   |       |   
+|   |       +---assets
+|   |       |   +---regex
+|   |       |   |       create.html
+|   |       |   |       edit.html
+|   |       |   |       
+|   |       |   \---static
+|   |       |           create.html
+|   |       |           edit.html
+|   |       |           
+|   |       \---tests
+|   |               test_flags.py
+|   |               __init__.py
+|   |               
+|   +---schemas
+|   |       audiences.py
+|   |       awards.py
+|   |       brackets.py
+|   |       challenges.py
+|   |       comments.py
+|   |       config.py
+|   |       fields.py
+|   |       files.py
+|   |       flags.py
+|   |       hints.py
+|   |       modules.py
+|   |       notifications.py
+|   |       pages.py
+|   |       ratings.py
+|   |       solutions.py
+|   |       submissions.py
+|   |       tags.py
+|   |       teams.py
+|   |       tokens.py
+|   |       topics.py
+|   |       unlocks.py
+|   |       users.py
+|   |       __init__.py
+|   |       
+|   +---themes
+|   |   +---admin
+|   |   |   |   package.json
+|   |   |   |   vite.config.js
+|   |   |   |   yarn.lock
+|   |   |   |   
+|   |   |   +---assets
+|   |   |   |   +---css
+|   |   |   |   |   |   admin.scss
+|   |   |   |   |   |   challenge-board.scss
+|   |   |   |   |   |   codemirror.scss
+|   |   |   |   |   |   fonts.scss
+|   |   |   |   |   |   main.scss
+|   |   |   |   |   |   
+|   |   |   |   |   \---includes
+|   |   |   |   |           award-icons.scss
+|   |   |   |   |           easymde.scss
+|   |   |   |   |           flag-icons.scss
+|   |   |   |   |           jumbotron.css
+|   |   |   |   |           min-height.scss
+|   |   |   |   |           opacity.scss
+|   |   |   |   |           sticky-footer.css
+|   |   |   |   |           
+|   |   |   |   \---js
+|   |   |   |       |   styles.js
+|   |   |   |       |   timezones.js
+|   |   |   |       |   
+|   |   |   |       +---challenges
+|   |   |   |       |       challenge.js
+|   |   |   |       |       new.js
+|   |   |   |       |       tags.js
+|   |   |   |       |       
+|   |   |   |       +---compat
+|   |   |   |       |       api.js
+|   |   |   |       |       config.js
+|   |   |   |       |       CTFd.js
+|   |   |   |       |       events.js
+|   |   |   |       |       ezq.js
+|   |   |   |       |       fetch.js
+|   |   |   |       |       format.js
+|   |   |   |       |       graphs.js
+|   |   |   |       |       helpers.js
+|   |   |   |       |       json.js
+|   |   |   |       |       math.js
+|   |   |   |       |       patch.js
+|   |   |   |       |       styles.js
+|   |   |   |       |       times.js
+|   |   |   |       |       ui.js
+|   |   |   |       |       wc.js
+|   |   |   |       |       
+|   |   |   |       +---components
+|   |   |   |       |   +---comments
+|   |   |   |       |   |       CommentBox.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---configs
+|   |   |   |       |   |   +---brackets
+|   |   |   |       |   |   |       Bracket.vue
+|   |   |   |       |   |   |       BracketList.vue
+|   |   |   |       |   |   |       
+|   |   |   |       |   |   \---fields
+|   |   |   |       |   |           Field.vue
+|   |   |   |       |   |           FieldList.vue
+|   |   |   |       |   |           
+|   |   |   |       |   +---files
+|   |   |   |       |   |       ChallengeFilesList.vue
+|   |   |   |       |   |       MediaLibrary.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---flags
+|   |   |   |       |   |       FlagCreationForm.vue
+|   |   |   |       |   |       FlagEditForm.vue
+|   |   |   |       |   |       FlagList.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---hints
+|   |   |   |       |   |       HintCreationForm.vue
+|   |   |   |       |   |       HintEditForm.vue
+|   |   |   |       |   |       HintsList.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---next
+|   |   |   |       |   |       NextChallenge.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---notifications
+|   |   |   |       |   |       Notification.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---ratings
+|   |   |   |       |   |       RatingsViewer.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---requirements
+|   |   |   |       |   |       Requirements.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---solution
+|   |   |   |       |   |       SolutionEditor.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---statistics
+|   |   |   |       |   |       ScoreboardMatrix.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---tags
+|   |   |   |       |   |       TagsList.vue
+|   |   |   |       |   |       
+|   |   |   |       |   +---teams
+|   |   |   |       |   |       UserAddForm.vue
+|   |   |   |       |   |       
+|   |   |   |       |   \---topics
+|   |   |   |       |           TopicsList.vue
+|   |   |   |       |           
+|   |   |   |       +---pages
+|   |   |   |       |       audience.js
+|   |   |   |       |       challenge.js
+|   |   |   |       |       challenges.js
+|   |   |   |       |       configs.js
+|   |   |   |       |       editor.js
+|   |   |   |       |       events.js
+|   |   |   |       |       main.js
+|   |   |   |       |       module.js
+|   |   |   |       |       notifications.js
+|   |   |   |       |       pages.js
+|   |   |   |       |       reset.js
+|   |   |   |       |       scoreboard.js
+|   |   |   |       |       statistics.js
+|   |   |   |       |       style.js
+|   |   |   |       |       submissions.js
+|   |   |   |       |       team.js
+|   |   |   |       |       teams.js
+|   |   |   |       |       user.js
+|   |   |   |       |       users.js
+|   |   |   |       |       
+|   |   |   |       \---templates
+|   |   |   |               admin-flags-table.njk
+|   |   |   |               
+|   |   |   +---static
+|   |   |   |   |   manifest.json
+|   |   |   |   |   
+|   |   |   |   +---assets
+|   |   |   |   |   |   admin-css-Byz8fAWo.css
+|   |   |   |   |   |   challenge-board-css-CpAEjUPb.css
+|   |   |   |   |   |   challenge-Drt7zm1v.css
+|   |   |   |   |   |   codemirror-css-DRHJUI8W.css
+|   |   |   |   |   |   CommentBox-CZ8OEr5k.css
+|   |   |   |   |   |   CommentBox-Ll_d0V3v.js
+|   |   |   |   |   |   echarts-l0sNRNKZ.js
+|   |   |   |   |   |   echarts.common-Bdt6IdtL.js
+|   |   |   |   |   |   fonts-css-B0NUqHPX.css
+|   |   |   |   |   |   graphs-D8_aSncZ.js
+|   |   |   |   |   |   htmlmixed-CBfzcasR.js
+|   |   |   |   |   |   main-css-CoszOyzj.css
+|   |   |   |   |   |   tab-CEoi3L7-.js
+|   |   |   |   |   |   
+|   |   |   |   |   \---pages
+|   |   |   |   |           audience-DJcsK9l_.js
+|   |   |   |   |           challenge-DnpG92HR.js
+|   |   |   |   |           challenges-Cie_zTqS.js
+|   |   |   |   |           configs-Co6NPRcy.js
+|   |   |   |   |           editor-DvOD3JCv.js
+|   |   |   |   |           main-CA4_OjGq.js
+|   |   |   |   |           module-c9Kmnhge.js
+|   |   |   |   |           notifications-Bj8IYjZ7.js
+|   |   |   |   |           pages-O-QBvGFf.js
+|   |   |   |   |           reset-B0M3xNK6.js
+|   |   |   |   |           scoreboard-BXUUYrU0.js
+|   |   |   |   |           statistics-IfjpOVH0.js
+|   |   |   |   |           submissions-CO-QyStx.js
+|   |   |   |   |           team-B7Ri4N39.js
+|   |   |   |   |           teams-_vTPzDx0.js
+|   |   |   |   |           user-C5eZ1XtE.js
+|   |   |   |   |           users-DF4NQHyi.js
+|   |   |   |   |           
+|   |   |   |   +---img
+|   |   |   |   |       favicon.ico
+|   |   |   |   |       logo.png
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---sounds
+|   |   |   |   |       notification.mp3
+|   |   |   |   |       notification.webm
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   \---webfonts
+|   |   |   |           fa-brands-400.ttf
+|   |   |   |           fa-brands-400.woff2
+|   |   |   |           fa-regular-400.ttf
+|   |   |   |           fa-regular-400.woff2
+|   |   |   |           fa-solid-900.ttf
+|   |   |   |           fa-solid-900.woff2
+|   |   |   |           fa-v4compatibility.ttf
+|   |   |   |           fa-v4compatibility.woff2
+|   |   |   |           lato-latin-400-normal.woff
+|   |   |   |           lato-latin-400-normal.woff2
+|   |   |   |           lato-latin-700-normal.woff
+|   |   |   |           lato-latin-700-normal.woff2
+|   |   |   |           lato-latin-ext-400-normal.woff
+|   |   |   |           lato-latin-ext-400-normal.woff2
+|   |   |   |           lato-latin-ext-700-normal.woff
+|   |   |   |           lato-latin-ext-700-normal.woff2
+|   |   |   |           raleway-cyrillic-500-normal.woff
+|   |   |   |           raleway-cyrillic-500-normal.woff2
+|   |   |   |           raleway-cyrillic-ext-500-normal.woff
+|   |   |   |           raleway-cyrillic-ext-500-normal.woff2
+|   |   |   |           raleway-latin-500-normal.woff
+|   |   |   |           raleway-latin-500-normal.woff2
+|   |   |   |           raleway-latin-ext-500-normal.woff
+|   |   |   |           raleway-latin-ext-500-normal.woff2
+|   |   |   |           raleway-vietnamese-500-normal.woff
+|   |   |   |           raleway-vietnamese-500-normal.woff2
+|   |   |   |           
+|   |   |   \---templates
+|   |   |       |   base.html
+|   |   |       |   config.html
+|   |   |       |   editor.html
+|   |   |       |   import.html
+|   |   |       |   integrations.html
+|   |   |       |   notifications.html
+|   |   |       |   page.html
+|   |   |       |   pages.html
+|   |   |       |   reset.html
+|   |   |       |   scoreboard.html
+|   |   |       |   statistics.html
+|   |   |       |   submissions.html
+|   |   |       |   
+|   |   |       +---audiences
+|   |   |       |       audience.html
+|   |   |       |       audiences.html
+|   |   |       |       new.html
+|   |   |       |       
+|   |   |       +---challenges
+|   |   |       |       challenge.html
+|   |   |       |       challenges.html
+|   |   |       |       create.html
+|   |   |       |       new.html
+|   |   |       |       preview.html
+|   |   |       |       update.html
+|   |   |       |       
+|   |   |       +---configs
+|   |   |       |       accounts.html
+|   |   |       |       backup.html
+|   |   |       |       brackets.html
+|   |   |       |       challenges.html
+|   |   |       |       email.html
+|   |   |       |       fields.html
+|   |   |       |       general.html
+|   |   |       |       legal.html
+|   |   |       |       localization.html
+|   |   |       |       logo.html
+|   |   |       |       mlc.html
+|   |   |       |       pause.html
+|   |   |       |       registration_code.html
+|   |   |       |       robots.html
+|   |   |       |       sanitize.html
+|   |   |       |       social.html
+|   |   |       |       theme.html
+|   |   |       |       time.html
+|   |   |       |       usermode.html
+|   |   |       |       visibility.html
+|   |   |       |       
+|   |   |       +---macros
+|   |   |       |       forms.html
+|   |   |       |       
+|   |   |       +---modals
+|   |   |       |   +---awards
+|   |   |       |   |       create.html
+|   |   |       |   |       
+|   |   |       |   +---challenges
+|   |   |       |   |       challenges.html
+|   |   |       |   |       files.html
+|   |   |       |   |       flags.html
+|   |   |       |   |       hints.html
+|   |   |       |   |       module.html
+|   |   |       |   |       next.html
+|   |   |       |   |       requirements.html
+|   |   |       |   |       solution.html
+|   |   |       |   |       solves.html
+|   |   |       |   |       tags.html
+|   |   |       |   |       topics.html
+|   |   |       |   |       
+|   |   |       |   +---mail
+|   |   |       |   |       send.html
+|   |   |       |   |       
+|   |   |       |   +---teams
+|   |   |       |   |       addresses.html
+|   |   |       |   |       captain.html
+|   |   |       |   |       create.html
+|   |   |       |   |       edit.html
+|   |   |       |   |       statistics.html
+|   |   |       |   |       
+|   |   |       |   \---users
+|   |   |       |           addresses.html
+|   |   |       |           create.html
+|   |   |       |           edit.html
+|   |   |       |           statistics.html
+|   |   |       |           
+|   |   |       +---modules
+|   |   |       |       module.html
+|   |   |       |       modules.html
+|   |   |       |       new.html
+|   |   |       |       
+|   |   |       +---scoreboard
+|   |   |       |       standings.html
+|   |   |       |       users.html
+|   |   |       |       
+|   |   |       +---teams
+|   |   |       |       new.html
+|   |   |       |       team.html
+|   |   |       |       teams.html
+|   |   |       |       
+|   |   |       \---users
+|   |   |               new.html
+|   |   |               user.html
+|   |   |               users.html
+|   |   |               
+|   |   +---core
+|   |   |   |   .gitignore
+|   |   |   |   .prettierignore
+|   |   |   |   .prettierrc.json
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   postcss.config.js
+|   |   |   |   README.md
+|   |   |   |   vite.config.js
+|   |   |   |   yarn.lock
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |   \---workflows
+|   |   |   |           build.yml
+|   |   |   |           prettier.yml
+|   |   |   |           
+|   |   |   +---assets
+|   |   |   |   +---img
+|   |   |   |   |       ctfd.ai
+|   |   |   |   |       ctfd.svg
+|   |   |   |   |       ctfd_transfer.svg
+|   |   |   |   |       favicon.ico
+|   |   |   |   |       logo.png
+|   |   |   |   |       logo_old.png
+|   |   |   |   |       scoreboard.png
+|   |   |   |   |       
+|   |   |   |   +---js
+|   |   |   |   |   |   challenges.js
+|   |   |   |   |   |   color_mode_switcher.js
+|   |   |   |   |   |   index.js
+|   |   |   |   |   |   notifications.js
+|   |   |   |   |   |   page.js
+|   |   |   |   |   |   scoreboard.js
+|   |   |   |   |   |   settings.js
+|   |   |   |   |   |   setup.js
+|   |   |   |   |   |   
+|   |   |   |   |   +---components
+|   |   |   |   |   |       language.js
+|   |   |   |   |   |       
+|   |   |   |   |   +---teams
+|   |   |   |   |   |       list.js
+|   |   |   |   |   |       private.js
+|   |   |   |   |   |       public.js
+|   |   |   |   |   |       
+|   |   |   |   |   +---theme
+|   |   |   |   |   |       highlight.js
+|   |   |   |   |   |       styles.js
+|   |   |   |   |   |       times.js
+|   |   |   |   |   |       
+|   |   |   |   |   +---users
+|   |   |   |   |   |       list.js
+|   |   |   |   |   |       private.js
+|   |   |   |   |   |       public.js
+|   |   |   |   |   |       
+|   |   |   |   |   \---utils
+|   |   |   |   |       |   alerts.js
+|   |   |   |   |       |   clipboard.js
+|   |   |   |   |       |   collapse.js
+|   |   |   |   |       |   math.js
+|   |   |   |   |       |   objects.js
+|   |   |   |   |       |   tooltips.js
+|   |   |   |   |       |   
+|   |   |   |   |       +---graphs
+|   |   |   |   |       |   +---echarts
+|   |   |   |   |       |   |       categories.js
+|   |   |   |   |       |   |       index.js
+|   |   |   |   |       |   |       scoreboard.js
+|   |   |   |   |       |   |       solve-percentage.js
+|   |   |   |   |       |   |       userscore.js
+|   |   |   |   |       |   |       
+|   |   |   |   |       |   \---vega
+|   |   |   |   |       |           categories.js
+|   |   |   |   |       |           scoreboard.js
+|   |   |   |   |       |           solve-percentage.js
+|   |   |   |   |       |           userscore.js
+|   |   |   |   |       |           
+|   |   |   |   |       \---notifications
+|   |   |   |   |               alerts.js
+|   |   |   |   |               read.js
+|   |   |   |   |               toasts.js
+|   |   |   |   |               
+|   |   |   |   +---scss
+|   |   |   |   |   |   main.scss
+|   |   |   |   |   |   
+|   |   |   |   |   \---includes
+|   |   |   |   |       +---components
+|   |   |   |   |       |       _challenge.scss
+|   |   |   |   |       |       _graphs.scss
+|   |   |   |   |       |       _jumbotron.scss
+|   |   |   |   |       |       _sticky-footer.scss
+|   |   |   |   |       |       _table.scss
+|   |   |   |   |       |       
+|   |   |   |   |       +---icons
+|   |   |   |   |       |       _award-icons.scss
+|   |   |   |   |       |       _flag-icons.scss
+|   |   |   |   |       |       
+|   |   |   |   |       \---utils
+|   |   |   |   |               _cursors.scss
+|   |   |   |   |               _fonts.scss
+|   |   |   |   |               _lolight.scss
+|   |   |   |   |               _min-height.scss
+|   |   |   |   |               _opacity.scss
+|   |   |   |   |               
+|   |   |   |   \---sounds
+|   |   |   |           notification.mp3
+|   |   |   |           notification.webm
+|   |   |   |           README.md
+|   |   |   |           
+|   |   |   +---static
+|   |   |   |   |   manifest.json
+|   |   |   |   |   
+|   |   |   |   +---assets
+|   |   |   |   |       challenges.ccee2541.js
+|   |   |   |   |       clipboard.26e62f1b.js
+|   |   |   |   |       color_mode_switcher.52334129.js
+|   |   |   |   |       echarts.128204f2.js
+|   |   |   |   |       index.1cf73b05.js
+|   |   |   |   |       index.94b01c79.js
+|   |   |   |   |       main.e9ec7884.css
+|   |   |   |   |       notifications.9000e91d.js
+|   |   |   |   |       page.9d188b19.js
+|   |   |   |   |       scoreboard.bdd94812.js
+|   |   |   |   |       settings.cec5001b.js
+|   |   |   |   |       setup.db9bb6e5.js
+|   |   |   |   |       teams_list.5a685cad.js
+|   |   |   |   |       teams_private.c09521d3.js
+|   |   |   |   |       teams_public.1f007619.js
+|   |   |   |   |       userscore.8adb2b33.js
+|   |   |   |   |       users_list.ebf8b5b3.js
+|   |   |   |   |       users_private.739b9fce.js
+|   |   |   |   |       users_public.ce92aae8.js
+|   |   |   |   |       
+|   |   |   |   +---img
+|   |   |   |   |       ctfd.ai
+|   |   |   |   |       ctfd.svg
+|   |   |   |   |       ctfd_transfer.svg
+|   |   |   |   |       favicon.ico
+|   |   |   |   |       logo.png
+|   |   |   |   |       logo_old.png
+|   |   |   |   |       scoreboard.png
+|   |   |   |   |       
+|   |   |   |   +---sounds
+|   |   |   |   |       notification.mp3
+|   |   |   |   |       notification.webm
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   \---webfonts
+|   |   |   |           fa-brands-400.ttf
+|   |   |   |           fa-brands-400.woff2
+|   |   |   |           fa-regular-400.ttf
+|   |   |   |           fa-regular-400.woff2
+|   |   |   |           fa-solid-900.ttf
+|   |   |   |           fa-solid-900.woff2
+|   |   |   |           fa-v4compatibility.ttf
+|   |   |   |           fa-v4compatibility.woff2
+|   |   |   |           lato-all-400-normal.woff
+|   |   |   |           lato-all-700-normal.woff
+|   |   |   |           lato-latin-400-normal.woff
+|   |   |   |           lato-latin-400-normal.woff2
+|   |   |   |           lato-latin-700-normal.woff
+|   |   |   |           lato-latin-700-normal.woff2
+|   |   |   |           lato-latin-ext-400-normal.woff
+|   |   |   |           lato-latin-ext-400-normal.woff2
+|   |   |   |           lato-latin-ext-700-normal.woff
+|   |   |   |           lato-latin-ext-700-normal.woff2
+|   |   |   |           raleway-all-400-normal.woff
+|   |   |   |           raleway-cyrillic-400-normal.woff
+|   |   |   |           raleway-cyrillic-400-normal.woff2
+|   |   |   |           raleway-cyrillic-ext-400-normal.woff
+|   |   |   |           raleway-cyrillic-ext-400-normal.woff2
+|   |   |   |           raleway-latin-400-normal.woff
+|   |   |   |           raleway-latin-400-normal.woff2
+|   |   |   |           raleway-latin-ext-400-normal.woff
+|   |   |   |           raleway-latin-ext-400-normal.woff2
+|   |   |   |           raleway-vietnamese-400-normal.woff
+|   |   |   |           raleway-vietnamese-400-normal.woff2
+|   |   |   |           
+|   |   |   \---templates
+|   |   |       |   base.html
+|   |   |       |   challenge.html
+|   |   |       |   challenges.html
+|   |   |       |   config.html
+|   |   |       |   confirm.html
+|   |   |       |   login.html
+|   |   |       |   notifications.html
+|   |   |       |   page.html
+|   |   |       |   register.html
+|   |   |       |   reset_password.html
+|   |   |       |   scoreboard.html
+|   |   |       |   settings.html
+|   |   |       |   setup.html
+|   |   |       |   
+|   |   |       +---components
+|   |   |       |       errors.html
+|   |   |       |       navbar.html
+|   |   |       |       notifications.html
+|   |   |       |       snackbar.html
+|   |   |       |       
+|   |   |       +---errors
+|   |   |       |       401.html
+|   |   |       |       403.html
+|   |   |       |       404.html
+|   |   |       |       429.html
+|   |   |       |       500.html
+|   |   |       |       502.html
+|   |   |       |       
+|   |   |       +---macros
+|   |   |       |       forms.html
+|   |   |       |       
+|   |   |       +---teams
+|   |   |       |       invite.html
+|   |   |       |       join_team.html
+|   |   |       |       new_team.html
+|   |   |       |       private.html
+|   |   |       |       public.html
+|   |   |       |       teams.html
+|   |   |       |       team_enrollment.html
+|   |   |       |       
+|   |   |       \---users
+|   |   |               private.html
+|   |   |               public.html
+|   |   |               users.html
+|   |   |               
+|   |   \---core-deprecated
+|   |       +---assets
+|   |       |   +---css
+|   |       |   |   |   challenge-board.scss
+|   |       |   |   |   codemirror.scss
+|   |       |   |   |   core.scss
+|   |       |   |   |   fonts.scss
+|   |       |   |   |   main.scss
+|   |       |   |   |   
+|   |       |   |   \---includes
+|   |       |   |       |   award-icons.scss
+|   |       |   |       |   flag-icons.scss
+|   |       |   |       |   jumbotron.css
+|   |       |   |       |   sticky-footer.css
+|   |       |   |       |   
+|   |       |   |       \---utils
+|   |       |   |               min-height.scss
+|   |       |   |               opacity.scss
+|   |       |   |               
+|   |       |   \---js
+|   |       |       |   api.js
+|   |       |       |   config.js
+|   |       |       |   CTFd.js
+|   |       |       |   events.js
+|   |       |       |   ezq.js
+|   |       |       |   fetch.js
+|   |       |       |   graphs.js
+|   |       |       |   helpers.js
+|   |       |       |   patch.js
+|   |       |       |   styles.js
+|   |       |       |   times.js
+|   |       |       |   utils.js
+|   |       |       |   
+|   |       |       \---pages
+|   |       |           |   challenges.js
+|   |       |           |   events.js
+|   |       |           |   main.js
+|   |       |           |   notifications.js
+|   |       |           |   scoreboard.js
+|   |       |           |   settings.js
+|   |       |           |   setup.js
+|   |       |           |   stats.js
+|   |       |           |   style.js
+|   |       |           |   
+|   |       |           \---teams
+|   |       |                   private.js
+|   |       |                   
+|   |       +---static
+|   |       |   +---css
+|   |       |   |       challenge-board.dev.css
+|   |       |   |       challenge-board.min.css
+|   |       |   |       codemirror.dev.css
+|   |       |   |       codemirror.min.css
+|   |       |   |       core.dev.css
+|   |       |   |       core.min.css
+|   |       |   |       fonts.dev.css
+|   |       |   |       fonts.min.css
+|   |       |   |       main.dev.css
+|   |       |   |       main.min.css
+|   |       |   |       
+|   |       |   +---fonts
+|   |       |   |       fa-brands-400.eot
+|   |       |   |       fa-brands-400.svg
+|   |       |   |       fa-brands-400.ttf
+|   |       |   |       fa-brands-400.woff
+|   |       |   |       fa-brands-400.woff2
+|   |       |   |       fa-regular-400.eot
+|   |       |   |       fa-regular-400.svg
+|   |       |   |       fa-regular-400.ttf
+|   |       |   |       fa-regular-400.woff
+|   |       |   |       fa-regular-400.woff2
+|   |       |   |       fa-solid-900.eot
+|   |       |   |       fa-solid-900.svg
+|   |       |   |       fa-solid-900.ttf
+|   |       |   |       fa-solid-900.woff
+|   |       |   |       fa-solid-900.woff2
+|   |       |   |       fontawesome-webfont.eot
+|   |       |   |       fontawesome-webfont.svg
+|   |       |   |       fontawesome-webfont.ttf
+|   |       |   |       fontawesome-webfont.woff
+|   |       |   |       fontawesome-webfont.woff2
+|   |       |   |       lato-latin-100.woff
+|   |       |   |       lato-latin-100.woff2
+|   |       |   |       lato-latin-100italic.woff
+|   |       |   |       lato-latin-100italic.woff2
+|   |       |   |       lato-latin-300.woff
+|   |       |   |       lato-latin-300.woff2
+|   |       |   |       lato-latin-300italic.woff
+|   |       |   |       lato-latin-300italic.woff2
+|   |       |   |       lato-latin-400.woff
+|   |       |   |       lato-latin-400.woff2
+|   |       |   |       lato-latin-400italic.woff
+|   |       |   |       lato-latin-400italic.woff2
+|   |       |   |       lato-latin-700.woff
+|   |       |   |       lato-latin-700.woff2
+|   |       |   |       lato-latin-700italic.woff
+|   |       |   |       lato-latin-700italic.woff2
+|   |       |   |       lato-latin-900.woff
+|   |       |   |       lato-latin-900.woff2
+|   |       |   |       lato-latin-900italic.woff
+|   |       |   |       lato-latin-900italic.woff2
+|   |       |   |       raleway-latin-100.woff
+|   |       |   |       raleway-latin-100.woff2
+|   |       |   |       raleway-latin-100italic.woff
+|   |       |   |       raleway-latin-100italic.woff2
+|   |       |   |       raleway-latin-200.woff
+|   |       |   |       raleway-latin-200.woff2
+|   |       |   |       raleway-latin-200italic.woff
+|   |       |   |       raleway-latin-200italic.woff2
+|   |       |   |       raleway-latin-300.woff
+|   |       |   |       raleway-latin-300.woff2
+|   |       |   |       raleway-latin-300italic.woff
+|   |       |   |       raleway-latin-300italic.woff2
+|   |       |   |       raleway-latin-400.woff
+|   |       |   |       raleway-latin-400.woff2
+|   |       |   |       raleway-latin-400italic.woff
+|   |       |   |       raleway-latin-400italic.woff2
+|   |       |   |       raleway-latin-500.woff
+|   |       |   |       raleway-latin-500.woff2
+|   |       |   |       raleway-latin-500italic.woff
+|   |       |   |       raleway-latin-500italic.woff2
+|   |       |   |       raleway-latin-600.woff
+|   |       |   |       raleway-latin-600.woff2
+|   |       |   |       raleway-latin-600italic.woff
+|   |       |   |       raleway-latin-600italic.woff2
+|   |       |   |       raleway-latin-700.woff
+|   |       |   |       raleway-latin-700.woff2
+|   |       |   |       raleway-latin-700italic.woff
+|   |       |   |       raleway-latin-700italic.woff2
+|   |       |   |       raleway-latin-800.woff
+|   |       |   |       raleway-latin-800.woff2
+|   |       |   |       raleway-latin-800italic.woff
+|   |       |   |       raleway-latin-800italic.woff2
+|   |       |   |       raleway-latin-900.woff
+|   |       |   |       raleway-latin-900.woff2
+|   |       |   |       raleway-latin-900italic.woff
+|   |       |   |       raleway-latin-900italic.woff2
+|   |       |   |       
+|   |       |   +---img
+|   |       |   |       ctfd.ai
+|   |       |   |       ctfd.svg
+|   |       |   |       ctfd_transfer.svg
+|   |       |   |       favicon.ico
+|   |       |   |       logo.png
+|   |       |   |       logo_old.png
+|   |       |   |       scoreboard.png
+|   |       |   |       
+|   |       |   +---js
+|   |       |   |   |   core.dev.js
+|   |       |   |   |   core.min.js
+|   |       |   |   |   echarts.bundle.dev.js
+|   |       |   |   |   echarts.bundle.min.js
+|   |       |   |   |   helpers.dev.js
+|   |       |   |   |   helpers.min.js
+|   |       |   |   |   vendor.bundle.dev.js
+|   |       |   |   |   vendor.bundle.min.js
+|   |       |   |   |   
+|   |       |   |   \---pages
+|   |       |   |       |   challenges.dev.js
+|   |       |   |       |   challenges.min.js
+|   |       |   |       |   main.dev.js
+|   |       |   |       |   main.min.js
+|   |       |   |       |   notifications.dev.js
+|   |       |   |       |   notifications.min.js
+|   |       |   |       |   scoreboard.dev.js
+|   |       |   |       |   scoreboard.min.js
+|   |       |   |       |   settings.dev.js
+|   |       |   |       |   settings.min.js
+|   |       |   |       |   setup.dev.js
+|   |       |   |       |   setup.min.js
+|   |       |   |       |   stats.dev.js
+|   |       |   |       |   stats.min.js
+|   |       |   |       |   
+|   |       |   |       \---teams
+|   |       |   |               private.dev.js
+|   |       |   |               private.min.js
+|   |       |   |               
+|   |       |   \---sounds
+|   |       |           notification.mp3
+|   |       |           notification.webm
+|   |       |           README.md
+|   |       |           
+|   |       \---templates
+|   |           |   base.html
+|   |           |   challenge.html
+|   |           |   challenges.html
+|   |           |   config.html
+|   |           |   confirm.html
+|   |           |   login.html
+|   |           |   notifications.html
+|   |           |   page.html
+|   |           |   register.html
+|   |           |   reset_password.html
+|   |           |   scoreboard.html
+|   |           |   settings.html
+|   |           |   setup.html
+|   |           |   
+|   |           +---components
+|   |           |       errors.html
+|   |           |       navbar.html
+|   |           |       
+|   |           +---errors
+|   |           |       401.html
+|   |           |       403.html
+|   |           |       404.html
+|   |           |       429.html
+|   |           |       500.html
+|   |           |       502.html
+|   |           |       
+|   |           +---macros
+|   |           |       forms.html
+|   |           |       
+|   |           +---teams
+|   |           |       invite.html
+|   |           |       join_team.html
+|   |           |       new_team.html
+|   |           |       private.html
+|   |           |       public.html
+|   |           |       teams.html
+|   |           |       team_enrollment.html
+|   |           |       
+|   |           \---users
+|   |                   private.html
+|   |                   public.html
+|   |                   users.html
+|   |                   
+|   +---translations
+|   |   +---ar
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---bg
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---ca
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---cs
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---de
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---el
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---es
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---fa
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---fi
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---fr
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---he
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---hr
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---id
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---it
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---ja
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---ko
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---lt
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---no
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---pl
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---pt_BR
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---ro
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---ru
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---sk
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---sl
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---sr
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---sv
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---tr
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---uz
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---vi
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   +---zh_Hans_CN
+|   |   |   \---LC_MESSAGES
+|   |   |           messages.mo
+|   |   |           messages.po
+|   |   |           
+|   |   \---zh_Hant_TW
+|   |       \---LC_MESSAGES
+|   |               messages.mo
+|   |               messages.po
+|   |               
+|   +---uploads
+|   |       .gitkeep
+|   |       
+|   \---utils
+|       |   __init__.py
+|       |   
+|       +---challenges
+|       |       __init__.py
+|       |       
+|       +---config
+|       |       integrations.py
+|       |       pages.py
+|       |       visibility.py
+|       |       __init__.py
+|       |       
+|       +---countries
+|       |       geoip.py
+|       |       __init__.py
+|       |       
+|       +---crypto
+|       |       __init__.py
+|       |       
+|       +---csv
+|       |       __init__.py
+|       |       
+|       +---dates
+|       |       __init__.py
+|       |       
+|       +---decorators
+|       |       modes.py
+|       |       visibility.py
+|       |       __init__.py
+|       |       
+|       +---email
+|       |   |   mailgun.py
+|       |   |   smtp.py
+|       |   |   __init__.py
+|       |   |   
+|       |   \---providers
+|       |           mailgun.py
+|       |           smtp.py
+|       |           __init__.py
+|       |           
+|       +---encoding
+|       |       __init__.py
+|       |       
+|       +---events
+|       |       __init__.py
+|       |       
+|       +---exports
+|       |       databases.py
+|       |       freeze.py
+|       |       serializers.py
+|       |       __init__.py
+|       |       
+|       +---formatters
+|       |       __init__.py
+|       |       
+|       +---health
+|       |       __init__.py
+|       |       
+|       +---helpers
+|       |       models.py
+|       |       __init__.py
+|       |       
+|       +---humanize
+|       |       numbers.py
+|       |       words.py
+|       |       __init__.py
+|       |       
+|       +---initialization
+|       |       __init__.py
+|       |       
+|       +---logging
+|       |       __init__.py
+|       |       
+|       +---migrations
+|       |       __init__.py
+|       |       
+|       +---modes
+|       |       __init__.py
+|       |       
+|       +---modules
+|       |       __init__.py
+|       |       
+|       +---notifications
+|       |       __init__.py
+|       |       
+|       +---plugins
+|       |       __init__.py
+|       |       
+|       +---scoreboard
+|       |       __init__.py
+|       |       
+|       +---scores
+|       |       __init__.py
+|       |       
+|       +---security
+|       |       auth.py
+|       |       csrf.py
+|       |       email.py
+|       |       passwords.py
+|       |       sanitize.py
+|       |       signing.py
+|       |       __init__.py
+|       |       
+|       +---sessions
+|       |       __init__.py
+|       |       
+|       +---social
+|       |       __init__.py
+|       |       
+|       +---updates
+|       |       __init__.py
+|       |       
+|       +---uploads
+|       |       uploaders.py
+|       |       __init__.py
+|       |       
+|       +---user
+|       |       __init__.py
+|       |       
+|       \---validators
+|               __init__.py
+|               
++---migrations
+|   |   1_2_0_upgrade_2_0_0.py
+|   |   alembic.ini
+|   |   env.py
+|   |   script.py.mako
+|   |   
+|   \---versions
+|           0366ba6575ca_add_table_for_comments.py
+|           07dfbe5e1edc_add_format_to_pages.py
+|           080d29b15cd3_add_tokens_table.py
+|           0def790057c1_add_language_column_to_users_table.py
+|           1093835a1051_add_default_email_templates.py
+|           24ad6790bc3c_convert_rating_values_to_votes.py
+|           336b8c601b94_add_modules_and_audiences.py
+|           364b4efa1686_add_ratings_table.py
+|           46a278193a94_enable_millisecond_precision_in_mysql_.py
+|           48d8250d19bd_add_position_to_challenges.py
+|           4d3c1b59d011_add_next_id_to_challenges_table.py
+|           4e4d5a9ea000_add_type_to_awards.py
+|           4fe3eeed9a9d_add_attribution_to_challenges.py
+|           55623b100da8_add_target_column_to_tracking.py
+|           5c4996aeb2cb_add_sha1sum_field_to_files_require_.py
+|           5c98d9253f56_rename_core_beta_to_core.py
+|           6012fe8de495_add_connection_info_column_to_challenges.py
+|           62bf576b2cd3_add_solutions_table.py
+|           662d728ad7da_add_change_password_to_users.py
+|           67ebab6de598_add_dynamic_scoring_columns_to_.py
+|           75e8ab9a0014_add_fields_and_fieldentries_tables.py
+|           8275865e5992_add_scheduled_at_column_to_challenges.py
+|           8369118943a1_initial_revision.py
+|           9889b8c53673_add_brackets_table.py
+|           9e6f6578ca84_add_description_column_to_tokens_table.py
+|           a02c5bf43407_add_link_target_to_pages.py
+|           a03403986a32_add_theme_code_injections_to_configs.py
+|           a49ad66aa0f1_add_title_to_hint.py
+|           b295b033364d_add_ondelete_cascade_to_foreign_keys.py
+|           b5551cd26764_add_captain_column_to_teams.py
+|           e69a79ebffd3_add_cascade_delete_to_solutionfiles.py
+|           ef87d69ec29a_add_topics_and_challenge_topics_tables.py
+|           f63a9205d72f_add_ip_column_to_unlocks.py
+|           f73a96c97449_add_logic_column_to_challenges.py
+|           
++---scripts
+|       install_docker.sh
+|       
+\---tests
+    |   helpers.py
+    |   test_config.py
+    |   test_legal.py
+    |   test_plugin_utils.py
+    |   test_setup.py
+    |   test_share.py
+    |   test_themes.py
+    |   test_views.py
+    |   __init__.py
+    |   
+    +---admin
+    |       test_challenges.py
+    |       test_config.py
+    |       test_csv.py
+    |       test_fields.py
+    |       test_notifications.py
+    |       test_pages.py
+    |       test_scoreboard.py
+    |       test_statistics.py
+    |       test_submissions.py
+    |       test_teams.py
+    |       test_users.py
+    |       test_views.py
+    |       __init__.py
+    |       
+    +---api
+    |   |   test_tokens.py
+    |   |   __init__.py
+    |   |   
+    |   \---v1
+    |       |   test_audiences.py
+    |       |   test_awards.py
+    |       |   test_brackets.py
+    |       |   test_challenges.py
+    |       |   test_comments.py
+    |       |   test_config.py
+    |       |   test_csrf.py
+    |       |   test_exports.py
+    |       |   test_fields.py
+    |       |   test_files.py
+    |       |   test_flags.py
+    |       |   test_hints.py
+    |       |   test_modules.py
+    |       |   test_notifications.py
+    |       |   test_pages.py
+    |       |   test_scoreboard.py
+    |       |   test_solutions.py
+    |       |   test_submissions.py
+    |       |   test_tags.py
+    |       |   test_teams.py
+    |       |   test_tokens.py
+    |       |   test_topics.py
+    |       |   test_unlocks.py
+    |       |   test_users.py
+    |       |   __init__.py
+    |       |   
+    |       +---challenges
+    |       |   \---requirements
+    |       |           test_requirements.py
+    |       |           
+    |       +---statistics
+    |       |       test_scores.py
+    |       |       __init__.py
+    |       |       
+    |       +---teams
+    |       |       test_scoring.py
+    |       |       test_teams.py
+    |       |       test_team_members.py
+    |       |       __init__.py
+    |       |       
+    |       +---user
+    |       |       test_admin_access.py
+    |       |       test_challenges.py
+    |       |       test_hints.py
+    |       |       __init__.py
+    |       |       
+    |       \---users
+    |               test_scoring.py
+    |               test_users.py
+    |               __init__.py
+    |               
+    +---brackets
+    |       test_brackets.py
+    |       
+    +---cache
+    |       test_cache.py
+    |       test_challenges.py
+    |       __init__.py
+    |       
+    +---challenges
+    |       test_base_challenge.py
+    |       test_challenge_logic.py
+    |       test_challenge_types.py
+    |       test_dynamic.py
+    |       test_ratings.py
+    |       test_standard_dynamic.py
+    |       __init__.py
+    |       
+    +---constants
+    |       test_constants.py
+    |       time.py
+    |       
+    +---models
+    |       test_model_utils.py
+    |       
+    +---oauth
+    |       test_redirect.py
+    |       test_teams.py
+    |       test_users.py
+    |       __init__.py
+    |       
+    +---teams
+    |       test_auth.py
+    |       test_challenges.py
+    |       test_fields.py
+    |       test_hidden_team_scores.py
+    |       test_hints.py
+    |       test_invites.py
+    |       test_scoreboard.py
+    |       test_teams.py
+    |       __init__.py
+    |       
+    +---users
+    |       test_auth.py
+    |       test_challenges.py
+    |       test_fields.py
+    |       test_hints.py
+    |       test_profile.py
+    |       test_scoreboard.py
+    |       test_settings.py
+    |       test_setup.py
+    |       test_submissions.py
+    |       test_users.py
+    |       __init__.py
+    |       
+    \---utils
+            test_ctftime.py
+            test_email.py
+            test_encoding.py
+            test_events.py
+            test_exports.py
+            test_formatters.py
+            test_humanize.py
+            test_markdown.py
+            test_module_access.py
+            test_passwords.py
+            test_plugins.py
+            test_ratelimit.py
+            test_sanitize.py
+            test_scheduled_challenges.py
+            test_sessions.py
+            test_updates.py
+            test_uploaders.py
+            test_validators.py
+            __init__.py
+            

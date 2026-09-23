@@ -1,0 +1,11 @@
+{
+  "services": [
+    {
+      "name": "ctfd",
+      "runtime": "container",
+      "build": {
+        "dockerfile": "Dockerfile.vercel"
+      }
+    }
+  ]
+}
