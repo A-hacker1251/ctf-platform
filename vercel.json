@@ -1,6 +1,17 @@
-"services": {
-  "ctfd": {
-    "root": ".",
-    "entrypoint": "Dockerfile.vercel"
-  }
+{
+  "services": {
+    "ctfd": {
+      "root": ".",
+      "runtime": "container",
+      "entrypoint": "Dockerfile.vercel"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "ctfd"
+      }
+    }
+  ]
 }
